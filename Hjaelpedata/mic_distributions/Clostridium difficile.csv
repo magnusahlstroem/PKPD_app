@@ -1,0 +1,23 @@
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Amoxicillin;0;0;0;0;2;0;8;11;102;316;62;8;0;0;0;0;0;0;0;2;509;NA;C.difficile;NA;NA
+Benzylpenicillin;0;0;0;1;1;2;2;56;426;1054;368;264;43;16;5;0;0;0;0;2;2238;NA;C.difficile;NA;NA
+Chloramphenicol;0;0;0;0;0;0;0;0;0;4;120;1378;998;99;58;34;2;3;0;1;2696;NA;C.difficile;NA;NA
+Ciprofloxacin;0;0;0;0;0;0;0;0;0;0;0;0;79;143;13;63;59;171;0;3;528;NA;C.difficile;NA;NA
+Clindamycin;0;0;0;1;5;8;21;76;212;478;1113;1398;837;121;14;16;12;387;518;15;5217;16,000;C.difficile;NA;NA
+Daptomycin;0;0;0;0;1;2;9;21;38;90;39;6;0;0;0;0;0;0;0;1;206;NA;C.difficile;NA;NA
+Doripenem;0;0;0;0;0;0;0;0;1;6;33;1;0;0;0;0;0;0;0;1;41;NA;C.difficile;NA;NA
+Ertapenem;0;0;0;0;0;0;0;0;0;0;12;151;98;5;0;0;0;0;0;1;266;NA;C.difficile;NA;NA
+Erythromycin;0;0;0;0;1;7;9;59;279;729;533;47;12;19;7;5;2;444;2128;8;4281;2,000;C.difficile;NA;NA
+Fidaxomicin;0;2;14;58;76;228;436;265;85;18;1;0;0;0;0;0;0;0;0;6;1183;NA;C.difficile;NA;NA
+Fusidic acid;0;0;0;0;3;71;181;312;322;171;37;0;0;0;0;0;0;5;0;3;1102;2,000;C.difficile;NA;NA
+Imipenem;0;0;0;0;0;0;5;3;4;31;524;1540;746;96;10;0;2;0;0;2;2961;NA;C.difficile;NA;NA
+Linezolid;0;0;0;0;0;0;1;8;50;111;30;13;1;1;0;0;0;0;0;1;215;NA;C.difficile;NA;NA
+Meropenem;0;0;0;0;0;0;0;1;6;99;371;83;13;0;0;0;0;0;0;3;573;8,000;C.difficile;NA;NA
+Metronidazole;0;0;0;2;96;485;1291;2595;2119;896;302;52;3;0;0;1;0;0;0;17;7842;2,000;C.difficile;2;2
+Moxifloxacin;0;0;0;0;0;0;0;17;347;1186;1371;70;32;184;284;1732;2;0;0;16;5225;4,000;C.difficile;NA;NA
+Piperacillin;0;0;0;1;1;0;0;0;1;0;17;225;393;173;72;22;3;22;0;4;930;NA;C.difficile;NA;NA
+Piperacillin-tazobactam;0;0;0;0;0;0;0;1;18;162;716;1157;869;135;29;2;0;0;0;5;3089;NA;C.difficile;NA;NA
+Rifampicin;1905;1407;2;1;1;2;0;0;4;4;0;1;0;0;7;50;9;0;0;8;3393;0,004;C.difficile;NA;NA
+Teicoplanin;0;0;0;1;29;204;147;18;2;0;0;0;0;0;0;0;0;0;0;1;401;NA;C.difficile;NA;NA
+Tetracycline;0;0;4;2;400;409;77;12;6;9;16;46;38;15;24;13;2;25;0;4;1098;0,250;C.difficile;NA;NA
+Vancomycin;0;0;0;0;4;2;13;374;3733;3460;335;29;3;1;1;0;0;0;0;15;7955;2,000;C.difficile;2;2

@@ -1,0 +1,16 @@
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Amoxicillin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;8,000
+Amoxicillin-clavulanic_acid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;8,000
+Ampicillin;0;0;0;0;0;0;0;0;12;22;19;0;1;0;5;0;0;0;0;1;59;NA;Enterococcus;4,000;8,000
+Ampicillin-sulbactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;8,000
+Benzylpenicillin;0;0;0;1;0;0;0;0;26;15;8;2;1;1;0;5;0;0;0;1;59;NA;Enterococcus;NA;NA
+Ciprofloxacin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;4,000
+Eravacycline;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;0,125;0,125
+Imipenem;0;0;0;0;0;0;0;5;30;7;8;3;1;5;0;0;0;0;0;1;59;NA;Enterococcus;0,001;4,000
+Levofloxacin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;4,000
+Linezolid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;4,000
+Nitrofurantoin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;64,000;64,000
+Quinupristin-dalfopristin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;1,000;4,000
+Teicoplanin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;2,000;2,000
+Tigecycline;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;0,250;0,250
+Vancomycin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterococcus;4,000;4,000

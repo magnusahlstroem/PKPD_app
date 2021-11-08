@@ -1,0 +1,11 @@
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Amoxicillin-clavulanic acid;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;NA;NA
+Amoxicillin-clavulanic_acid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;B.pseudomallei;0,001;8
+Ceftazidime;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;0,001;8
+Chloramphenicol;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;0,001;8
+Doxycycline;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;0,001;2
+Imipenem;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;2,000;2
+Meropenem;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;2,000;2
+Tetracycline (screen only);0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;NA;NA
+Trimethoprim-sulfamethoxazole;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;B.pseudomallei;0,001;4
+Trimethoprim-sulfamethoxazole1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NA;B.pseudomallei;NA;NA

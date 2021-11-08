@@ -1,0 +1,16 @@
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Amoxicillin;0;0;0;0;0;0;0;7;37;120;204;170;153;7;10;92;0;0;0;6;800;8,0;C.jejuni_C.coli;NA;NA
+Ampicillin;0;0;0;0;0;0;0;5;24;83;202;341;247;37;58;93;10;0;0;8;1100;16,0;C.jejuni_C.coli;NA;NA
+Azithromycin;0;0;0;65;1094;4012;2374;490;40;16;4;1;1;1;0;11;857;0;0;22;8966;0,5;C.jejuni_C.coli;NA;NA
+Chloramphenicol;0;0;0;0;0;0;0;0;11;159;704;705;338;43;0;0;0;0;0;16;1960;16,0;C.jejuni_C.coli;NA;NA
+Ciprofloxacin;0;0;0;0;27;592;2176;1240;256;36;6;58;322;482;178;54;2;0;0;44;5429;0,5;C.jejuni_C.coli;0,001;0,5
+Clindamycin;0;0;0;0;25;303;2258;3666;1303;457;222;335;268;151;70;0;0;0;0;22;9058;1,0;C.jejuni_C.coli;NA;NA
+Doxycycline;0;0;0;0;1;13;180;73;46;23;23;70;236;248;143;17;0;0;0;9;1073;1,0;C.jejuni_C.coli;NA;NA
+Erythromycin;0;0;0;0;5;11;270;1521;2293;3483;1519;742;316;62;49;166;1280;0;11;48;11728;8,0;C.jejuni_C.coli;4,000;4,0
+Florfenicol;0;0;0;0;2;4;2;14;824;6378;1619;89;4;6;1;0;0;0;0;21;8943;4,0;C.jejuni_C.coli;NA;NA
+Gentamicin;0;0;0;0;4;38;160;1550;4160;1911;175;4;2;1;5;99;0;0;0;50;8109;1,0;C.jejuni_C.coli;NA;NA
+Nalidixic acid;0;0;0;0;0;0;1;1;2;25;125;1992;1878;460;115;262;607;263;36;48;5767;16,0;C.jejuni_C.coli;NA;NA
+Neomycin;0;0;0;0;0;0;0;0;194;567;120;9;1;4;3;0;0;0;0;11;898;4,0;C.jejuni_C.coli;NA;NA
+Streptomycin;0;0;0;0;0;0;0;0;0;67;114;95;26;102;257;110;100;120;0;9;991;4,0;C.jejuni_C.coli;NA;NA
+Telithromycin;0;0;0;3;0;9;151;882;495;1645;1992;574;158;466;0;0;0;0;0;3;6375;NA;C.jejuni_C.coli;NA;NA
+Tetracycline;0;0;0;0;0;47;618;2033;1065;525;167;71;94;180;302;796;3759;113;1;30;9771;2,0;C.jejuni_C.coli;2,000;2,0

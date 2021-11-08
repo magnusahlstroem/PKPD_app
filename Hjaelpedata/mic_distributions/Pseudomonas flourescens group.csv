@@ -1,0 +1,26 @@
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Amikacin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;16,000;16,0
+Ampicillin-sulbactam (ratio);0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;21;0;0;0;1;23;NA;Pseudomonas;NA;NA
+Aztreonam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;0,001;16,0
+Cefepime;0;0;0;1;0;0;2;1;12;30;51;34;15;17;8;0;0;0;0;3;171;NA;Pseudomonas;0,001;8,0
+Cefiderocol;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;2,000;2,0
+Ceftazidime;0;0;0;0;1;1;0;4;5;24;68;57;18;10;9;4;0;0;113;3;314;8;Pseudomonas;0,001;8,0
+Ceftazidime-avibactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;8,000;8,0
+Ceftobiprole;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;0;1;3;NA;Pseudomonas;NA;NA
+Ceftolozane-tazobactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;4,000;4,0
+Ceftriaxone;0;0;0;0;0;0;0;3;4;2;3;9;31;27;16;59;0;0;0;2;154;NA;Pseudomonas;NA;NA
+Ciprofloxacin;0;0;1;1;0;1;16;1;0;0;1;1;0;1;5;0;0;0;0;1;28;NA;Pseudomonas;0,001;0,5
+Colistin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;2,000;2,0
+Doripenem;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;0,001;2,0
+Imipenem;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;0,001;4,0
+Imipenem-relebactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;2,000;2,0
+Levofloxacin;0;0;0;0;0;3;19;42;38;10;6;4;1;4;0;0;0;0;116;1;243;NA;Pseudomonas;0,001;1,0
+Meropenem;0;0;0;0;3;10;13;15;9;26;23;37;13;19;1;0;0;0;0;2;169;NA;Pseudomonas;2,000;8,0
+Meropenem-vaborbactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;8,000;8,0
+Netilmicin;0;0;0;0;0;0;7;8;4;0;0;0;0;0;0;0;0;0;0;1;19;NA;Pseudomonas;NA;NA
+Piperacillin;0;0;0;0;0;1;3;3;31;53;64;72;47;28;5;3;2;6;117;3;435;NA;Pseudomonas;0,001;16,0
+Piperacillin-tazobactam;0;0;0;0;0;0;1;0;5;24;69;95;74;41;14;8;19;3;118;5;471;16;Pseudomonas;0,001;16,0
+Ticarcillin;0;0;0;0;0;0;0;0;0;4;1;4;3;17;8;11;26;67;0;1;141;NA;Pseudomonas;0,001;16,0
+Ticarcillin-clavulanic acid;0;0;0;0;0;0;0;0;0;3;1;4;4;12;16;11;21;69;0;1;141;NA;Pseudomonas;NA;NA
+Ticarcillin-clavulanic_acid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;0,001;16,0
+Tobramycin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Pseudomonas;2,000;2,0
