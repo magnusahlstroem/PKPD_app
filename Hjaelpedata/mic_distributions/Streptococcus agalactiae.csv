@@ -1,4 +1,4 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Amoxicillin;0;0;0;9;56;254;19;0;0;0;0;0;0;0;0;0;0;0;0;5;338;0,250;Streptococcus_A,B,C,G;NA;NA
 Ampicillin;0;0;0;1;8;123;158;10;0;1;2;0;0;0;0;0;0;0;0;4;303;0,250;Streptococcus_A,B,C,G;NA;NA
 Azithromycin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Streptococcus_A,B,C,G;0,250;0,500
@@ -19,7 +19,7 @@ Clarithromycin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 Clindamycin;0;0;0;1;80;390;424;46;3;1;2;1;3;23;11;1;1;17;0;8;1004;0,500;Streptococcus_A,B,C,G;0,500;0,500
 Dalbavancin;1;1;50;290;267;162;59;18;0;0;0;0;0;0;0;0;0;0;0;11;848;0,125;Streptococcus_A,B,C,G;0,125;0,125
 Daptomycin;0;0;0;6;8;362;807;570;107;4;0;0;0;0;0;0;0;0;0;9;1864;0,500;Streptococcus_A,B,C,G;1,000;1,000
-Delafloxacin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Streptococcus_A,B,C,G;0,030;0,030
+Delafloxacin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Streptococcus_A,B,C,G;0,032;0,032
 Doripenem;0;3;36;214;19;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;273;0,032;Streptococcus_A,B,C,G;NA;NA
 Doxycycline;0;0;0;0;0;4;6;3;2;1;3;0;22;11;0;0;0;0;0;2;52;NA;Streptococcus_A,B,C,G;1,000;2,000
 Eravacycline;0;0;2;11;209;269;17;0;0;0;0;0;0;0;0;0;0;0;0;3;508;0,125;Streptococcus_A,B,C,G;NA;NA
@@ -46,7 +46,7 @@ Piperacillin;0;0;0;3;3;12;130;50;3;3;0;0;0;0;0;0;0;0;0;4;204;NA;Streptococcus_A,
 Piperacillin-tazobactam;0;0;4;8;7;30;156;372;1775;120;3;3;0;1;1;0;2;2;0;8;2484;1,000;Streptococcus_A,B,C,G;NA;NA
 Quinupristin-dalfopristin;0;0;0;0;0;0;7;31;145;16;0;5;9;5;0;0;0;0;0;3;218;NA;Streptococcus_A,B,C,G;NA;NA
 Retapamulin;0;0;5;83;790;173;17;3;0;0;0;0;0;0;0;0;0;0;0;2;1071;NA;Streptococcus_A,B,C,G;NA;NA
-Rifampicin;0;0;0;0;6;24;1;0;1;0;0;0;0;0;0;0;0;0;0;1;32;NA;Streptococcus_A,B,C,G;0,060;0,500
+Rifampicin;0;0;0;0;6;24;1;0;1;0;0;0;0;0;0;0;0;0;0;1;32;NA;Streptococcus_A,B,C,G;0,064;0,500
 Roxithromycin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Streptococcus_A,B,C,G;0,500;1,000
 Sparfloxacin;0;0;0;0;0;0;0;3;70;14;4;0;0;0;0;0;0;0;0;1;91;NA;Streptococcus_A,B,C,G;NA;NA
 Sulfamethoxazole;0;0;0;0;0;0;0;0;1;10;46;19;0;0;0;0;0;0;0;1;76;NA;Streptococcus_A,B,C,G;NA;NA

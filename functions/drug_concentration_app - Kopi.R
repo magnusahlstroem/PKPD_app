@@ -7,6 +7,7 @@ drug_concentration_app <- function(drug_name = "",
                                VD_kg = 0.19, 
                                t.5 = 1.5,
                                t.5_esrd = 17,
+                               Hep_CL = NA,
                                eGFR = 80,
                                weight = 70, 
                                infusion_time = 0.5, 
@@ -19,45 +20,21 @@ drug_concentration_app <- function(drug_name = "",
                                resolution = 100,
                                pk_pd_index = "Time>MIC",
                                MIC= 4) {
-  #if(bacterium != "") {
-  #  MIC_def <- MIC
-  #  MIC <- read_csv2(paste("H:/decay_curves/Hjaelpedata/mic_fordelinger/", bacterium, ".csv", sep = "")) %>%
-  #    filter(Drugname == drug_name) %>%
-  #    pull(ECOFF)
-  #  if(is.na(MIC)) {
-  #    warning("no e-coff defined for this bug/drug combination, check spelling or make sure to indicate a correct mic. \nOr else the default value of 4 mg/mL is used")
-  #    MIC <- MIC_def
-  #  }
-  #  rm(MIC_def)
-  #}
+
   
-  #if(drug_name != "") {
-  #  named_args <- lapply(ls(), function(x) get(x))
-  #  names(named_args) <- ls()[(ls() != "named_args")]
-  #  drug_args <- c(drug_name = drug_name, bacterium = bacterium, get(drug_name))
-  #  drug_args <- drug_args[order(names(drug_args))]
-  #  formal_args <- fn_fmls()
-  #  formal_args <- formal_args[order(names(formal_args))]
-  #  named_args <- mapply(function(named_args, formal_args) if(named_args != formal_args) named_args else "", formal_args = formal_args, named_args = named_args, SIMPLIFY = F)
-  #  arg_val <- mapply(function(named_args, drug_args) if(named_args != drug_args & named_args != "") named_args else drug_args, drug_args = drug_args, named_args = named_args, SIMPLIFY = F)
-  #  #def_val <- def_val[order(names(def_val))]
-  #} else {
-  #  arg_val <- lapply(ls(), function(x) get(x))
-  #  names(arg_val) <- ls()[(ls() != "arg_val")]
-  #}
+  
   arg_val <- list(drug_name = drug_name,  bacterium = bacterium, VD_kg = VD_kg, t.5 = t.5,  weight = weight,
                   infusion_time = infusion_time, dose = dose, dosing_interval = dosing_interval, 
                   n_intervals = n_intervals, bioavailability = bioavailability, meassure_at = meassure_at,
                   protein_binding = protein_binding, resolution = resolution, pk_pd_index = pk_pd_index,
                   MIC = MIC)
+  
   if(eGFR == 80) {
     t.5_est <- t.5 
   } else {
-    t.5_est <- t.5_esrd + ((t.5 - t.5_esrd)/80) * eGFR
+    t.5_est <- t.5_egfr(eGFR = eGFR, Hep_CL = Hep_CL, t.5 = t.5, t.5_esrd = t.5_esrd, liverfunction = 1, VD = weight * VD_kg)
   }
-  t.5_est
-}
-
+  
   #calc_ekstra <- min(which(arg_val$dosing_interval*0:6 / (arg_val$t.5*5) > 1)) - 1
   calc_ekstra <- ceiling(arg_val$t.5*5 / arg_val$dosing_interval)
   if(meassure_at == "SD") {

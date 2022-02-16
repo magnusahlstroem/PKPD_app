@@ -1,4 +1,4 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Amikacin;0;0;0;0;0;0;0;1;2358;9523;3498;376;26;0;1;0;1;0;0;3;15784;4,000;Enterobacterales;8,000;8,000
 Amoxicillin;0;0;0;0;0;0;0;6;2418;5791;207;6;4;2;14;1148;553;0;0;6;10149;4,000;Enterobacterales;8,000;8,000
 Amoxicillin-clavulanic_acid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterobacterales;8,000;8,000
@@ -46,7 +46,7 @@ Imipenem-relebactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;
 Kanamycin;0;0;0;0;0;0;0;16;1042;981;520;422;35;2;0;7;0;1;0;3;3026;NA;Enterobacterales;NA;NA
 Levofloxacin;0;0;0;1;20;93;67;9;7;1;0;0;0;0;0;0;0;0;0;3;198;0,250;Enterobacterales;0,500;1,000
 Mecillinam;0;0;0;0;0;0;0;0;2;5;5;3;5;6;12;2;0;2;2;2;44;NA;Enterobacterales;8,000;8,000
-Meropenem;0;0;0;29;362;1178;9;8;0;1;0;0;1;0;0;0;0;0;0;2;1588;0,060;Enterobacterales;2,000;8,000
+Meropenem;0;0;0;29;362;1178;9;8;0;1;0;0;1;0;0;0;0;0;0;2;1588;0,064;Enterobacterales;2,000;8,000
 Meropenem-vaborbactam;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterobacterales;8,000;8,000
 Moxifloxacin;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterobacterales;0,250;0,250
 Nalidixic acid;0;0;0;0;0;0;0;0;11;183;10718;26940;3314;260;40;211;220;202;1;10;42100;8,000;Enterobacterales;NA;NA

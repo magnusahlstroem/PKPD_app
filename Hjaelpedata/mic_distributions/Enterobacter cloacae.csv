@@ -1,4 +1,4 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Amikacin;0;0;0;0;0;2;9;70;425;2108;3095;475;177;202;93;13;0;2;4;15;6675;8,000;Enterobacterales;8,000;8,000
 Amoxicillin;0;0;0;0;0;0;0;0;0;1;3;12;13;27;62;99;147;95;365;6;824;NA;Enterobacterales;8,000;8,000
 Amoxicillin-clavulanic_acid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;Enterobacterales;8,000;8,000

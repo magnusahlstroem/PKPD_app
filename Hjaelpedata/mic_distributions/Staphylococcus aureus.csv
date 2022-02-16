@@ -1,4 +1,4 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Amikacin;0;0;2;0;1;0;0;37;101;349;1873;2666;943;322;83;64;3;2;0;18;6446;16,000;Staphylococcus;8,000;8,000
 Ampicillin;0;0;0;0;2;7;96;210;276;302;97;10;13;30;18;34;1;1;0;3;1097;NA;Staphylococcus;NA;NA
 Avilamycin;0;0;0;0;0;0;0;0;0;0;2;11;1;0;0;0;0;0;0;1;14;NA;Staphylococcus;NA;NA
@@ -16,7 +16,7 @@ Cefotaxime;0;0;2;0;1;3;18;103;383;2174;2383;400;92;25;242;10;6;15;0;41;5857;4,00
 Cefotaxime-clavulanate;0;0;1;0;0;1;0;0;2;1;48;12;0;0;0;0;0;0;0;3;65;NA;Staphylococcus;NA;NA
 Cefoxitin;0;0;0;0;0;0;1;9;67;273;217;160;8;1;7;6;3;4;0;12;756;4,000;Staphylococcus;NA;NA
 Cefpodoxime;0;0;0;0;0;0;7;10;23;597;3340;193;96;72;900;0;1;2;0;2;5241;NA;Staphylococcus;NA;NA
-Ceftaroline;0;0;0;0;5;27;935;5637;3380;1542;474;3;6;0;0;0;0;0;0;5;12009;0,500;Staphylococcus;16,000;2,000
+Ceftaroline;0;0;0;0;5;27;935;5637;3380;1542;474;3;6;0;0;0;0;0;0;5;12009;0,500;Staphylococcus;1,000;2,000
 Ceftiofur;0;0;0;0;0;0;4;13;63;43;0;0;0;0;0;0;0;0;0;3;123;NA;Staphylococcus;NA;NA
 Ceftobiprole;0;0;0;1;0;95;313;10356;7881;5781;2262;119;1;3;0;0;0;0;0;10;26812;1,000;Staphylococcus;2,000;2,000
 Ceftriaxone;0;0;0;0;0;0;0;0;0;4;154;213;9;9;1;3;1;1;0;4;395;8,000;Staphylococcus;NA;NA
@@ -66,7 +66,7 @@ Piperacillin;0;0;0;0;0;2;29;106;193;145;308;273;114;104;53;55;15;4;0;3;1401;2,00
 Piperacillin-tazobactam;0;0;16;17;19;34;187;526;1374;1526;1523;578;140;77;50;47;30;43;0;45;6187;2,000;Staphylococcus;NA;NA
 Quinupristin-dalfopristin;0;0;0;0;5;15;985;8346;4444;669;40;18;16;12;0;0;0;0;0;9;14550;1,000;Staphylococcus;1,000;2,000
 Retapamulin;0;1;10;34;251;3634;1831;224;35;1;5;0;0;0;1;2;0;0;0;7;6029;0,500;Staphylococcus;NA;NA
-Rifampicin;1;197;677;203;15;3;3;2;2;9;8;3;0;0;1;3;8;17;2;3;1154;0,016;Staphylococcus;0,060;0,500
+Rifampicin;1;197;677;203;15;3;3;2;2;9;8;3;0;0;1;3;8;17;2;3;1154;0,016;Staphylococcus;0,064;0,500
 Roxithromycin;0;0;0;0;0;0;55;269;2288;471;12;15;23;29;839;0;0;0;0;2;4001;NA;Staphylococcus;1,000;2,000
 Sparfloxacin;0;0;0;9;202;673;154;7;10;8;9;59;208;45;3;0;0;0;0;2;1387;NA;Staphylococcus;NA;NA
 Spectinomycin;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;97;19;0;4;4;124;128,000;Staphylococcus;NA;NA

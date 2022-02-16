@@ -1,7 +1,7 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Ampicillin;0;0;2;11;38;56;290;267;344;271;111;75;18;3;19;0;0;0;0;12;1505;NA;N.gonorrhoeae;NA;NA
 Azithromycin;0;0;4;459;809;1469;2711;2678;1191;563;194;38;29;13;8;4;0;6;0;14;10176;NA;N.gonorrhoeae;NA;NA
-Benzylpenicillin;0;1;100;692;450;1396;2669;2140;1414;1568;540;184;102;467;48;25;13;17;0;21;11826;NA;N.gonorrhoeae;0,060;1,000
+Benzylpenicillin;0;1;100;692;450;1396;2669;2140;1414;1568;540;184;102;467;48;25;13;17;0;21;11826;NA;N.gonorrhoeae;0,064;1,000
 Cefaclor;0;0;0;0;13;10;9;8;12;0;0;0;0;0;0;0;0;0;0;1;52;NA;N.gonorrhoeae;NA;NA
 Cefalexin;0;0;0;0;2;1;1;10;33;18;27;8;3;1;0;0;0;0;0;1;104;NA;N.gonorrhoeae;NA;NA
 Cefazolin;0;0;0;0;0;0;0;32;24;9;19;12;0;0;0;0;0;0;0;1;96;NA;N.gonorrhoeae;NA;NA
@@ -12,7 +12,7 @@ Ceftazidime;0;2;3;12;16;5;0;0;0;0;0;0;0;0;0;0;0;0;0;1;38;NA;N.gonorrhoeae;NA;NA
 Ceftriaxone;221;341;381;310;218;146;55;19;6;0;0;0;0;0;0;0;0;0;0;11;1697;0,032;N.gonorrhoeae;0,125;0,125
 Cefuroxime;0;4;53;59;142;226;171;87;87;24;6;0;3;0;0;0;0;0;0;5;862;0,125;N.gonorrhoeae;NA;NA
 Chloramphenicol;0;0;0;0;0;0;0;0;2;57;79;19;6;1;2;1;0;0;0;1;167;NA;N.gonorrhoeae;NA;NA
-Ciprofloxacin;3093;2012;871;311;150;73;101;158;206;261;568;683;711;366;980;46;6;39;0;24;10635;0,016;N.gonorrhoeae;0,030;0,060
+Ciprofloxacin;3093;2012;871;311;150;73;101;158;206;261;568;683;711;366;980;46;6;39;0;24;10635;0,016;N.gonorrhoeae;0,032;0,064
 Clarithromycin;0;0;0;0;14;11;14;4;0;0;0;0;0;0;0;0;0;0;0;1;43;NA;N.gonorrhoeae;NA;NA
 Erythromycin;0;0;0;2;9;7;31;72;136;186;208;213;51;4;1;1;0;1;0;5;922;0,500;N.gonorrhoeae;NA;NA
 Gatifloxacin;0;32;2;3;1;1;0;0;2;1;0;2;0;0;0;0;0;0;0;1;44;NA;N.gonorrhoeae;NA;NA

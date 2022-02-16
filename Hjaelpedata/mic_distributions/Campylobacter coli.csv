@@ -1,4 +1,4 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Amoxicillin;0;0;0;0;0;0;0;7;37;120;204;170;153;7;10;92;0;0;0;6;800;8,0;C.jejuni_C.coli;NA;NA
 Ampicillin;0;0;0;0;0;0;0;5;24;83;202;341;247;37;58;93;10;0;0;8;1100;16,0;C.jejuni_C.coli;NA;NA
 Azithromycin;0;0;0;65;1094;4012;2374;490;40;16;4;1;1;1;0;11;857;0;0;22;8966;0,5;C.jejuni_C.coli;NA;NA

@@ -1,4 +1,4 @@
-Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.03;MIC_0.06;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
+Drugname;MIC_0.002;MIC_0.004;MIC_0.008;MIC_0.016;MIC_0.032;MIC_0.064;MIC_0.125;MIC_0.25;MIC_0.5;MIC_1;MIC_2;MIC_4;MIC_8;MIC_16;MIC_32;MIC_64;MIC_128;MIC_256;MIC_512;Distribution;Observations;ECOFF;Breakpoint_type;Sensitive;Resistant
 Amoxicillin;0;0;0;0;2;0;8;11;102;316;62;8;0;0;0;0;0;0;0;2;509;NA;C.difficile;NA;NA
 Benzylpenicillin;0;0;0;1;1;2;2;56;426;1054;368;264;43;16;5;0;0;0;0;2;2238;NA;C.difficile;NA;NA
 Chloramphenicol;0;0;0;0;0;0;0;0;0;4;120;1378;998;99;58;34;2;3;0;1;2696;NA;C.difficile;NA;NA

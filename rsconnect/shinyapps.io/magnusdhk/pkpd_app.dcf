@@ -5,9 +5,10 @@ account: magnusdhk
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4189800
-bundleId: 4643688
+bundleId: 5375970
 url: https://magnusdhk.shinyapps.io/pkpd_app/
-when: 1622057820.81039
-lastSyncTime: 1622057820.81039
+when: 1639579452.75861
+lastSyncTime: 1639579452.75861
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: .gitattributes|LICENSE|pkpd_app.7z|README.md
