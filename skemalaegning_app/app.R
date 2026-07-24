@@ -1,12 +1,32 @@
 library(shiny)
+library(DBI)
+library(RSQLite)
 
+source("R/db.R", local = TRUE)
 source("R/scheduler.R", local = TRUE)
+source("R/modules/settings_module.R", local = TRUE)
+source("R/modules/functions_module.R", local = TRUE)
+source("R/modules/doctors_module.R", local = TRUE)
+
+`%||%` <- function(x, y) {
+  if (is.null(x)) y else x
+}
+
+conn <- connect_db()
+init_db(conn)
+onStop(function() DBI::dbDisconnect(conn))
 
 ui <- fluidPage(
-  titlePanel("Automatisk skemalægning"),
-  sidebarLayout(
-    sidebarPanel(
-      helpText("Indtast personer og opgaver. Appen laver et simpelt skema uden dobbeltbooking i samme tidsrum."),
+  titlePanel("Dermatologisk skemalægning"),
+  p("Grunddata til skemalægning for læger på en dermatologisk afdeling."),
+  tabsetPanel(
+    tabPanel("Normperiode", settings_module_ui("settings")),
+    tabPanel("Funktioner", functions_module_ui("functions")),
+    tabPanel("Læger", doctors_module_ui("doctors")),
+    tabPanel(
+      "Første skemaforslag",
+      h2("Simpel test af skemamotor"),
+      p("Dette faneblad er midlertidigt og kan senere kobles direkte til de gemte databaseoplysninger."),
       textAreaInput(
         "people",
         "Personer",
@@ -17,14 +37,12 @@ ui <- fluidPage(
       textAreaInput(
         "shifts",
         "Opgaver/vagter/lektioner",
-        value = "Matematik: man-08\nBiologi: tir-08\nFysik: ons-08",
+        value = "Ambulatorium: man-08\nStuegang: tir-08\nAkut: ons-08",
         rows = 6,
         placeholder = "Format: Opgave: tidsrum"
       ),
       numericInput("max_assignments", "Maks. tildelinger pr. person", value = 999, min = 1, step = 1),
-      actionButton("create", "Lav skema", class = "btn-primary")
-    ),
-    mainPanel(
+      actionButton("create", "Lav skema", class = "btn-primary"),
       h3("Forslag til skema"),
       tableOutput("schedule"),
       h3("Ikke planlagt"),
@@ -34,6 +52,10 @@ ui <- fluidPage(
 )
 
 server <- function(input, output, session) {
+  settings_module_server("settings", conn)
+  functions_module_server("functions", conn)
+  doctors_module_server("doctors", conn)
+
   result <- eventReactive(input$create, {
     people <- parse_people(input$people)
     shifts <- parse_shifts(input$shifts)

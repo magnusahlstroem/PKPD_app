@@ -1,0 +1,12 @@
+Package: skemalaegningApp
+Title: Dermatologisk Skemalaegning
+Version: 0.1.0
+Description: R/Shiny app for grunddata og automatisk skemalaegning paa en dermatologisk afdeling.
+License: MIT
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    shiny,
+    DBI,
+    RSQLite
