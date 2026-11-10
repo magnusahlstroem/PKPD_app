@@ -17,6 +17,36 @@ drug_concentration_app <- function(drug_name = "",
                                resolution = 100,
                                pk_pd_index = "Time>MIC",
                                MIC= 4) {
+  numeric_args <- c(VD_kg = VD_kg, t.5 = t.5, weight = weight,
+                    infusion_time = infusion_time, dose = dose,
+                    dosing_interval = dosing_interval, n_intervals = n_intervals,
+                    bioavailability = bioavailability,
+                    protein_binding = protein_binding, resolution = resolution, MIC = MIC)
+  if (any(!is.finite(numeric_args))) {
+    stop("All numeric PK/PD inputs must be finite", call. = FALSE)
+  }
+  if (any(numeric_args[c("VD_kg", "t.5", "weight", "infusion_time",
+                         "dosing_interval", "n_intervals", "resolution", "MIC")] <= 0)) {
+    stop("Volumes, times, weight, interval count, resolution and MIC must be greater than zero", call. = FALSE)
+  }
+  if (dose < 0 || bioavailability < 0 || bioavailability > 100) {
+    stop("Dose must be non-negative and bioavailability must be between 0 and 100 percent", call. = FALSE)
+  }
+  if (protein_binding < 0 || protein_binding > 1) {
+    stop("protein_binding must be a fraction between 0 and 1", call. = FALSE)
+  }
+  if (n_intervals != floor(n_intervals)) {
+    stop("n_intervals must be a whole number", call. = FALSE)
+  }
+  if (infusion_time > dosing_interval) {
+    stop("infusion_time cannot exceed dosing_interval", call. = FALSE)
+  }
+  if (!meassure_at %in% c("SD", "SS", "SP")) {
+    stop("meassure_at must be one of SD, SS or SP", call. = FALSE)
+  }
+  if (!pk_pd_index %in% c("Time>MIC", "24-AUC", "Cmax-MIC ratio")) {
+    stop("Unknown pk_pd_index", call. = FALSE)
+  }
   #if(bacterium != "") {
   #  MIC_def <- MIC
   #  MIC <- read_csv2(paste("H:/decay_curves/Hjaelpedata/mic_fordelinger/", bacterium, ".csv", sep = "")) %>%
@@ -163,18 +193,18 @@ drug_concentration_app <- function(drug_name = "",
       summarise(time_above_mic = time_above_mic[1]/sum(time_above_mic)) %>%
       pull(time_above_mic)
     
-    if(arg_val$pk_pd_index == "24-AUC") {
-      auc_poly <- auc_poly(time_conc, arg_val$MIC, arg_val$dosing_interval, arg_val$n_interval)
-    } else {
-      auc_poly <- list()
-    }
-    
-    
   } else {
     above_mic_frame <- data.frame(tstart = 0, 
                                   tstop = arg_val$n_intervals * arg_val$dosing_interval, 
                                   lty = 2)
     time_above_mic = 0
+  }
+
+  # AUC is defined for the full concentration curve, including when the curve
+  # never crosses MIC (in which case the ratio can still be non-zero).
+  if(arg_val$pk_pd_index == "24-AUC") {
+    auc_poly <- auc_poly(time_conc, arg_val$MIC, arg_val$dosing_interval, arg_val$n_intervals)
+  } else {
     auc_poly <- list()
   }
   

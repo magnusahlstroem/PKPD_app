@@ -70,9 +70,9 @@ ui <- shinyUI(fluidPage(
            numericInput(
              'Hep_CL', 'Hepatisk clearance', value = 0.01, min = 0, max = 1, step = 0.01
            ),
-           numericInput(
-             't.5_esrd', 'Halveringstid ESRD', value = 17, min = 0, max = 1, step = 0.01
-           ),
+            numericInput(
+              't.5_esrd', 'Halveringstid ESRD', value = 17, min = 0, max = 250, step = 0.1
+            ),
            numericInput(
              't.5_est', 'Estimeret plasma halveringstid (t)', value = 0.5, min = 0.1, max = 250, step = 0.01
            ),
@@ -292,7 +292,7 @@ server <- shinyServer(function(input, output) {
   #})
   observeEvent(input$Antibiotikum, {
     updateNumericInput(inputId = "protein_binding", 
-                       value = filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(protein_binding))
+                       value = 100 * (filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(protein_binding)))
   })
   observeEvent(input$Antibiotikum, {
     updateNumericInput(inputId = "t.5", 
@@ -311,12 +311,12 @@ server <- shinyServer(function(input, output) {
                        value = filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(VD_kg))
   })
   observeEvent(input$Antibiotikum, {
-    updateNumericInput(inputId = "formulation", 
-                       value = filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(formulation))
+    updateSelectInput(inputId = "formulation",
+                      selected = filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(formulation))
   })
   observeEvent(input$Antibiotikum, {
-    updateNumericInput(inputId = "meassure_at", 
-                       value = filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(meassure_at))
+    updateSelectInput(inputId = "meassure_at",
+                      selected = filter(Antibiotika, drug_name == input$Antibiotikum) %>% pull(meassure_at))
   })
   observeEvent(input$formulation, {
     updateNumericInput(inputId = "bioavailability", 
@@ -342,7 +342,7 @@ server <- shinyServer(function(input, output) {
                            n_intervals = input$n_intervals * input$days,
                            bioavailability = input$bioavailability,
                            meassure_at = input$meassure_at,
-                           protein_binding = input$protein_binding,
+                           protein_binding = input$protein_binding / 100,
                            resolution = 100,
                            pk_pd_index = input$pk_pd_index,
                            MIC = as.numeric(sub(",", ".", input$MIC)))
